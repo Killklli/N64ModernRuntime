@@ -23,6 +23,7 @@ namespace recomp {
         std::string internal_name;
         std::u8string game_id;
         std::string mod_game_id;
+        std::string discovery_url;
         SaveType save_type = SaveType::None;
         bool is_enabled;
         // Only needed for mod function hooking support, not needed if `has_compressed_code` is false.
